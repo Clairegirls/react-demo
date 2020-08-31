@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TodoList() {
+function QiziGame() {
   return (
     <div>
       111
@@ -8,4 +8,4 @@ function TodoList() {
   );
 }
 
-export default TodoList;
+export default QiziGame;
