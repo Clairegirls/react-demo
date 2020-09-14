@@ -1,8 +1,11 @@
+orderWrap{
+    /*margin: 20px;*/
+}
 .orderItem{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 20px 0px;
+    /*padding: 0px 20px 0px;*/
     height: 100px;
     align-items: center;
     color: #999999;
@@ -41,8 +44,24 @@
     padding: 2px 15px;
 }
 .orderItem_btn_red{
-    background-color: red;
+    background-color: crimson;
 }
 :focus{
     border: none !important;
+}
+.orderItem_commentContainer{
+    margin-bottom: 15px;
+}
+.orderItem_comment{
+    width: 100%;
+    min-height: 40px;
+}
+.orderStars{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.orderItemRed{
+    color: crimson;
+    /*background-color: crimson;*/
+    /*border: 1px solid crimson;*/
 }
